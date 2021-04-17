@@ -1,7 +1,7 @@
 ---
-title: "How To Make a Personal Website"
+title: "3 Key Ingredients for Building a Static Site"
 date: 2021-02-18
-slug: "How To Make a Personal Website"
+slug: "Everything you need to build a static site"
 description: "Create your own static site!"
 keywords: ["website", "static", "blog", "how to"]
 draft: false
@@ -29,4 +29,4 @@ Creating a static site is the best way to get started with your own personal web
 ## That's it!
 &nbsp;
 &nbsp;
-<img src="http://24.media.tumblr.com/ca949071cbadba2ed4092fa338d59461/tumblr_mo4b3lZYlc1r03eaxo1_400.gif"/>
+<img src="https://64.media.tumblr.com/ca949071cbadba2ed4092fa338d59461/tumblr_mo4b3lZYlc1r03eaxo1_400.gif"/>
