@@ -2,3 +2,4 @@
 resources/_gen/assets/scss/scss/.DS_Store
 content/blog/.DS_Store
 .hugo_build.lock
+/resources/_gen
