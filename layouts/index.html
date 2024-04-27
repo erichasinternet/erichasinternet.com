@@ -1,20 +1,16 @@
-{{ define "styles" }}
-    {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/about.scss" "dest" "css/about.css") }}
-{{ end }}
-
-{{ define "main" }}
+{{ define "styles" }} {{ $.Scratch.Set "style_opts" (dict "src"
+"scss/pages/about.scss" "dest" "css/about.css") }} {{ end }} {{ define "main" }}
 
 <div class="splash-container">
   <div class="splash">
-	  <h3>Eric Lawson</h3>
-	   <h1>{{ .Params.heading }}<span class="fancy"></span></h1>
+    <h3>Eric Lawson</h3>
+    <h1>{{ .Params.heading }}<span class="fancy"></span></h1>
     {{ if isset .Params "handle" }}
     <span class="handle">@{{ .Params.handle }}</span>
     {{ end }}
+    <p>Software Engineer | Denver, CO</p>
 
-	  <p>Software Engineer living in Denver, CO</p>
-      
-       {{ partial "social-icons.html" .}}
+    {{ partial "social-icons.html" .}}
   </div>
 </div>
 
